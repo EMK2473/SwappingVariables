@@ -18,11 +18,19 @@ public class SwappingVariables {
       Scanner scnr = new Scanner(System.in);
       final int NUM_ELEMENTS = 4;
       int[] values = new int[NUM_ELEMENTS];
+      int i;
 
-      for(int i = 0; i < values.length; ++i){
+      for(i = 0; i < values.length; ++i){
         values[i] = scnr.nextInt();
         System.out.println(values[i]);
       }
+
+      swapValues(values);
+
+      for(i = 0; i < values.length; ++i){
+        System.out.print(values[i] + " ");
+      }
+
       scnr.close();
    }
 }
