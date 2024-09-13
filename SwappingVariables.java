@@ -35,6 +35,6 @@ public class SwappingVariables {
         System.out.print(values[i] + " ");
       }
     }
-      scnr.close();
+    scnr.close();
    }
 }
