@@ -22,7 +22,6 @@ public class SwappingVariables {
 
       for(i = 0; i < values.length; ++i){
         values[i] = scnr.nextInt();
-        System.out.println(values[i]);
       }
 
       swapValues(values);
@@ -30,7 +29,6 @@ public class SwappingVariables {
       for(i = 0; i < values.length; ++i){
         System.out.print(values[i] + " ");
       }
-
       scnr.close();
    }
 }
