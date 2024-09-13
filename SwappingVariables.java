@@ -27,8 +27,14 @@ public class SwappingVariables {
       swapValues(values);
 
       for(i = 0; i < values.length; ++i){
+
+        if(i == values.length - 1) {
+            System.out.print(values[i]);
+        }
+        else {
         System.out.print(values[i] + " ");
       }
+    }
       scnr.close();
    }
 }
